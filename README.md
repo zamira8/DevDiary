@@ -35,7 +35,8 @@ pip instal -r requirements.txt
 
 ##Использование
 
-'from analyzer import analyze_tracks
+'''
+from analyzer import analyze_tracks
 tracks = [
   {
     "title": "hotel",
@@ -59,7 +60,8 @@ result = analyze_tracks(
     min_duration=120,
     top_n=5,
     include_explicit=False,
-)'
+)
+'''
 
 ##Параметры
 
